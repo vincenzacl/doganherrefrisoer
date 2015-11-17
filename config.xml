@@ -4,16 +4,16 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaappValentinoPizza"
-        version   = "1.0.1">
+        id        = "com.webwapsolutions.doganherrefrisoer"
+        version   = "1.0">
 
-    <name>Pizza Valentino</name>
+    <name>Dogan Herrefrisør</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Pizza Valentino App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Dogan Herrefrisør powered by ckmedia.dk
     </description>
-    <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
-        Web Wap Solutions Team
+    <author href="http://ckmedia.dk" email="support@ckmedia.dk">
+        CK Media
     </author>
    <!--
         <feature name="debug-server" required="false" />
@@ -43,7 +43,7 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-
+	<preference name='phonegap-version' value='cli-5.1.1' />
       <!-- Customize your app and platform with the preference element. -->
     <preference name="SplashScreen" 		  value="generic"/>
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
@@ -66,8 +66,8 @@
     <preference name="KeepRunning"                value="true"/>
     <preference name="InAppBrowserStorageEnabled" value="true"/>
     
-    <preference name="LoadingDialog" value="Pizza Valentino, Velkommen til Pizza Valentino"/>
-    <preference name="LoadingPageDialog" value="Pizza Valentino, Velkommen til Pizza Valentino"/>
+    <preference name="LoadingDialog" value="Dogan Herrefrisør"/>
+    <preference name="LoadingPageDialog" value="Velkommen til Dogan Herrefrisør"/>
     <preference name="LogLevel" value="WARN"/>
     
     <gap:config-file platform="android" parent="/manifest/application">
